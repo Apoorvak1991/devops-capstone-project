@@ -11,6 +11,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container: python:3.9-slim
+    uses: actions/checkout@v2
+    
 
     services:
       postgres:
